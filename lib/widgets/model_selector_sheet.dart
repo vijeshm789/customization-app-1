@@ -5,6 +5,7 @@ import '../models/garment_zone.dart';
 import '../models/uniform_model.dart';
 import '../providers/visualizer_provider.dart';
 import '../utils/mock_data.dart';
+import '../utils/model_painters.dart';
 
 class ModelSelectorSheet extends StatefulWidget {
   const ModelSelectorSheet({super.key});
@@ -237,57 +238,64 @@ class _ModelSelectorSheetState extends State<ModelSelectorSheet>
   }
 
   Widget _buildModelPreview(UniformModel model) {
-    IconData icon;
-    Color color;
+    // Use the new realistic model painters
+    final defaultColors = ModelImageGenerator.defaultColors;
 
+    CustomPainter painter;
     switch (model.category) {
       case ModelCategory.boys:
-        icon = Icons.boy;
-        color = const Color(0xFF3B82F6);
+        if (model.id.contains('kurta')) {
+          painter = KurtaPajamaModelPainter(zoneColors: defaultColors);
+        } else {
+          painter = BoyModelPainter(zoneColors: defaultColors);
+        }
         break;
       case ModelCategory.girls:
-        icon = Icons.girl;
-        color = const Color(0xFFEC4899);
+        painter = GirlModelPainter(zoneColors: defaultColors);
         break;
       case ModelCategory.corporate:
-        icon = Icons.business_center;
-        color = const Color(0xFF6366F1);
+        painter = CorporateModelPainter(zoneColors: defaultColors);
         break;
       case ModelCategory.medical:
-        icon = Icons.medical_services;
-        color = const Color(0xFF06B6D4);
+        painter = MedicalModelPainter(zoneColors: defaultColors);
         break;
     }
 
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Icon(
-          icon,
-          size: 60,
-          color: color,
+        Expanded(
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: CustomPaint(
+              size: const Size(80, 120),
+              painter: painter,
+            ),
+          ),
         ),
-        const SizedBox(height: 8),
         Wrap(
           spacing: 4,
+          runSpacing: 4,
+          alignment: WrapAlignment.center,
           children: model.availableZones.take(3).map((zone) {
             return Container(
               padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
               decoration: BoxDecoration(
-                color: color.withOpacity(0.1),
+                color: AppColors.primaryTeal.withOpacity(0.1),
                 borderRadius: BorderRadius.circular(8),
               ),
               child: Text(
                 zone.displayName,
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 8,
-                  color: color,
+                  color: AppColors.primaryTeal,
                   fontFamily: 'Poppins',
                 ),
               ),
             );
           }).toList(),
         ),
+        const SizedBox(height: 4),
       ],
     );
   }
