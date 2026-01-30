@@ -29,7 +29,7 @@ class AppTheme {
           fontFamily: 'Poppins',
         ),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 4,
         shadowColor: AppColors.shadow,
         shape: RoundedRectangleBorder(

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../constants/app_colors.dart';
+import '../models/garment_zone.dart';
 import '../models/uniform_model.dart';
 import '../providers/visualizer_provider.dart';
 import '../utils/mock_data.dart';
