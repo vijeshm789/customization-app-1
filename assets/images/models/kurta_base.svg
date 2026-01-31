@@ -1,0 +1,44 @@
+<svg width="200" height="400" viewBox="0 0 200 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kurta Pajama Model Base Layer - Non-customizable parts -->
+
+  <!-- Head/Face -->
+  <ellipse cx="100" cy="35" rx="28" ry="32" fill="#D4A574"/>
+
+  <!-- Neck -->
+  <rect x="88" y="60" width="24" height="15" fill="#D4A574"/>
+
+  <!-- Hair (traditional style) -->
+  <path d="M72 25 Q72 5 100 5 Q128 5 128 25 L128 38 Q128 18 100 15 Q72 18 72 38 Z" fill="#1A1A1A"/>
+
+  <!-- Eyes -->
+  <ellipse cx="88" cy="35" rx="4" ry="3" fill="#2C1810"/>
+  <ellipse cx="112" cy="35" rx="4" ry="3" fill="#2C1810"/>
+
+  <!-- Eyebrows -->
+  <path d="M82 28 Q88 25 94 28" stroke="#1A1A1A" stroke-width="1.5" fill="none"/>
+  <path d="M106 28 Q112 25 118 28" stroke="#1A1A1A" stroke-width="1.5" fill="none"/>
+
+  <!-- Nose -->
+  <path d="M100 38 L97 50 L103 50 Z" fill="#C49A6C" opacity="0.5"/>
+
+  <!-- Mustache (traditional) -->
+  <path d="M88 52 Q100 58 112 52 Q108 55 100 55 Q92 55 88 52" fill="#1A1A1A"/>
+
+  <!-- Ears -->
+  <ellipse cx="72" cy="38" rx="5" ry="7" fill="#D4A574"/>
+  <ellipse cx="128" cy="38" rx="5" ry="7" fill="#D4A574"/>
+
+  <!-- Hands -->
+  <ellipse cx="25" cy="230" rx="12" ry="14" fill="#D4A574"/>
+  <ellipse cx="175" cy="230" rx="12" ry="14" fill="#D4A574"/>
+
+  <!-- Traditional footwear (Mojari/Jutti) -->
+  <path d="M60 385 Q55 380 58 375 L92 375 Q95 380 90 385 Z" fill="#8B4513"/>
+  <ellipse cx="75" cy="388" rx="18" ry="6" fill="#8B4513"/>
+  <path d="M108 385 Q105 380 108 375 L142 375 Q145 380 140 385 Z" fill="#8B4513"/>
+  <ellipse cx="125" cy="388" rx="18" ry="6" fill="#8B4513"/>
+
+  <!-- Decorative embroidery on footwear -->
+  <circle cx="75" cy="385" r="3" fill="#FFD700" opacity="0.6"/>
+  <circle cx="125" cy="385" r="3" fill="#FFD700" opacity="0.6"/>
+</svg>

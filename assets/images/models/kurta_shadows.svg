@@ -1,0 +1,28 @@
+<svg width="200" height="400" viewBox="0 0 200 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kurta Pajama Model Shadow Overlay for 3D Effect -->
+
+  <!-- Body fold shadows -->
+  <path d="M55 100 L52 270 L58 270 L61 100 Z" fill="#000000" opacity="0.08"/>
+  <path d="M139 100 L145 270 L151 270 L145 100 Z" fill="#000000" opacity="0.08"/>
+
+  <!-- Center placket shadow -->
+  <path d="M91 90 L91 200 L93 200 L93 90 Z" fill="#000000" opacity="0.1"/>
+
+  <!-- Sleeve shadows -->
+  <path d="M25 150 L35 210 L40 208 L30 148 Z" fill="#000000" opacity="0.08"/>
+  <path d="M175 150 L165 210 L160 208 L170 148 Z" fill="#000000" opacity="0.08"/>
+
+  <!-- Kurta hem shadow -->
+  <path d="M35 275 L40 280 L160 280 L165 275 L160 278 L40 278 Z" fill="#000000" opacity="0.12"/>
+
+  <!-- Pajama shadows -->
+  <path d="M60 280 L55 375 L62 375 L67 280 Z" fill="#000000" opacity="0.06"/>
+  <path d="M133 280 L145 375 L138 375 L126 280 Z" fill="#000000" opacity="0.06"/>
+
+  <!-- Collar shadow -->
+  <path d="M85 72 L85 78 L115 78 L115 72 L110 75 L90 75 Z" fill="#000000" opacity="0.08"/>
+
+  <!-- Side slit shadows (traditional kurta feature) -->
+  <path d="M75 240 L75 280 L78 280 L78 240 Z" fill="#000000" opacity="0.1"/>
+  <path d="M122 240 L125 280 L128 280 L125 240 Z" fill="#000000" opacity="0.1"/>
+</svg>

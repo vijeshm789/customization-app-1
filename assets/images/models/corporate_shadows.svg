@@ -1,0 +1,22 @@
+<svg width="200" height="400" viewBox="0 0 200 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Corporate Model Shadow Overlay for 3D Effect -->
+
+  <!-- Body fold shadows -->
+  <path d="M65 90 L68 165 L72 165 L69 90 Z" fill="#000000" opacity="0.08"/>
+  <path d="M130 90 L133 165 L137 165 L134 90 Z" fill="#000000" opacity="0.08"/>
+
+  <!-- Center button line -->
+  <line x1="100" y1="95" x2="100" y2="175" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Sleeve shadows -->
+  <path d="M30 120 L35 175 L38 175 L33 120 Z" fill="#000000" opacity="0.1"/>
+  <path d="M167 120 L162 175 L165 175 L170 120 Z" fill="#000000" opacity="0.1"/>
+
+  <!-- Pant crease highlights -->
+  <line x1="75" y1="190" x2="75" y2="375" stroke="#FFFFFF" stroke-width="1" opacity="0.15"/>
+  <line x1="125" y1="190" x2="125" y2="375" stroke="#FFFFFF" stroke-width="1" opacity="0.15"/>
+
+  <!-- Pant shadows -->
+  <path d="M55 190 L52 375 L58 375 L61 190 Z" fill="#000000" opacity="0.08"/>
+  <path d="M139 190 L148 375 L142 375 L133 190 Z" fill="#000000" opacity="0.08"/>
+</svg>

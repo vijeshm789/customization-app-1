@@ -1,0 +1,6 @@
+<svg width="200" height="400" viewBox="0 0 200 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kurta Mandarin/Nehru Collar Zone -->
+  <path d="M70 68 L72 90 L100 85 L128 90 L130 68 L120 72 L100 78 L80 72 Z" fill="#FFFFFF"/>
+  <!-- Collar stand -->
+  <rect x="85" y="68" width="30" height="8" rx="2" fill="#FFFFFF"/>
+</svg>

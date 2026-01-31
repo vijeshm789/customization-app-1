@@ -1,0 +1,25 @@
+<svg width="200" height="400" viewBox="0 0 200 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Medical Model Shadow Overlay for 3D Effect -->
+
+  <!-- Body fold shadows -->
+  <path d="M60 85 L62 195 L66 195 L64 85 Z" fill="#000000" opacity="0.06"/>
+  <path d="M134 85 L136 195 L140 195 L138 85 Z" fill="#000000" opacity="0.06"/>
+
+  <!-- V-neck shadow -->
+  <path d="M100 75 L95 90 L100 95 L105 90 Z" fill="#000000" opacity="0.08"/>
+
+  <!-- Pocket shadow -->
+  <path d="M55 100 L55 135 L58 135 L58 100 Z" fill="#000000" opacity="0.1"/>
+  <path d="M55 135 L85 135 L85 132 L55 132 Z" fill="#000000" opacity="0.1"/>
+
+  <!-- Sleeve shadows -->
+  <path d="M28 100 L35 120 L38 118 L31 98 Z" fill="#000000" opacity="0.08"/>
+  <path d="M172 100 L165 120 L162 118 L169 98 Z" fill="#000000" opacity="0.08"/>
+
+  <!-- Pant shadows -->
+  <path d="M50 205 L47 375 L53 375 L56 205 Z" fill="#000000" opacity="0.06"/>
+  <path d="M144 205 L153 375 L147 375 L138 205 Z" fill="#000000" opacity="0.06"/>
+
+  <!-- Waistband shadow -->
+  <rect x="48" y="198" width="104" height="5" fill="#000000" opacity="0.08"/>
+</svg>
