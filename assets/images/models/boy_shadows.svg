@@ -1,0 +1,30 @@
+<svg width="200" height="400" viewBox="0 0 200 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Boy Model Shadow/Fold Overlay for 3D effect -->
+  <defs>
+    <linearGradient id="bodyShade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0.1"/>
+      <stop offset="50%" style="stop-color:#000000;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.1"/>
+    </linearGradient>
+    <linearGradient id="foldLine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#000000;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body shadow -->
+  <path d="M35 75 L40 210 L160 210 L165 75 L140 68 L100 82 L60 68 Z" fill="url(#bodyShade)"/>
+
+  <!-- Vertical fold lines on shirt -->
+  <line x1="80" y1="95" x2="80" y2="200" stroke="url(#foldLine)" stroke-width="2"/>
+  <line x1="120" y1="95" x2="120" y2="200" stroke="url(#foldLine)" stroke-width="2"/>
+
+  <!-- Sleeve shadows -->
+  <path d="M35 75 L5 140 L18 150 L35 110 Z" fill="url(#bodyShade)" opacity="0.5"/>
+  <path d="M165 75 L195 140 L182 150 L165 110 Z" fill="url(#bodyShade)" opacity="0.5"/>
+
+  <!-- Pant shadows -->
+  <path d="M52 210 L48 378 L88 378 L92 210 Z" fill="url(#bodyShade)"/>
+  <path d="M108 210 L112 378 L152 378 L148 210 Z" fill="url(#bodyShade)"/>
+</svg>

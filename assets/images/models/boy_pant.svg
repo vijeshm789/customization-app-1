@@ -1,0 +1,7 @@
+<svg width="200" height="400" viewBox="0 0 200 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Boy Model Pants Zone -->
+  <!-- Left Leg -->
+  <path d="M52 210 L48 378 L88 378 L92 210 Z" fill="#FFFFFF"/>
+  <!-- Right Leg -->
+  <path d="M108 210 L112 378 L152 378 L148 210 Z" fill="#FFFFFF"/>
+</svg>
